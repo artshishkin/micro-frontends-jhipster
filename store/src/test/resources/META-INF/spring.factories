@@ -1,0 +1,1 @@
+org.springframework.test.context.ContextCustomizerFactory = net.shyshkin.study.mf.store.config.TestContainersSpringContextCustomizerFactory
