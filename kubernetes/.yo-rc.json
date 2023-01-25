@@ -1,0 +1,20 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "blog", "store"],
+    "clusteredDbApps": ["store"],
+    "deploymentType": "kubernetes",
+    "directoryPath": "../",
+    "dockerPushCommand": "docker push",
+    "dockerRepositoryName": "artarkatesoft",
+    "ingressDomain": "",
+    "istio": false,
+    "jwtSecretKey": "YzZlMmZmODBkNWI5N2Q4OGI1ZjU0YzhjYjE4MmQzZWMwYWJkOGVkM2EzYzZlNDJkNTc2YjdlYmU3MTU5ZTBiYTdlYzM0YzQ4ZTA3YzNmZTU2NmVjZDU2ZjJhOTMyMzJjOTI4MQ==",
+    "kubernetesNamespace": "demo",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesStorageClassName": "",
+    "kubernetesUseDynamicStorage": true,
+    "monitoring": "no",
+    "monorepository": true,
+    "serviceDiscoveryType": "consul"
+  }
+}
